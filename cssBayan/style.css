@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+/* Accordion */
+
+.accordion {
+    width: 60%;
+    height: 80%;
+    margin: 10% auto;
+
+}
+.accordion-item {
+    border-top: 0.1vh black solid;
+}
+.meme-input:checked ~ .meme-content {
+    display: block;
+}
+.meme-input:checked ~ .meme-title {
+    background-color: #bd3a3a;
+}
+.meme-content {
+    display: none;
+}
+.meme-title:hover{
+    background-color: #bd3a3a;
+}
+.meme-title {
+    display: block;
+    cursor: pointer;
+    padding: 1vh;
+
+    transition: background 0.2s;
+}
+
+.meme-input {
+    width: 0;
+    height: 0;
+    
+    appearance: none;
+
+    position: absolute;
+
+}
+
+.img {
+    background:url(img/img1.jpg);
+    height: 30vw;
+    width: 30vw;
+
+    margin: 5% auto;
+    
+}
+
