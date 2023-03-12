@@ -1,13 +1,18 @@
 *{
     box-sizing: border-box;
+    color: blueviolet;
+    font: 1em Arial ;
 }
-
+h1 {
+    font-size: 2em;
+}
 .cross {
-    float:right;
-    display: none;
+    display:none;
     margin-right: 2vh;
     padding-top: 1vh;
-    align-items: center;
+    align-content: flex-end;
+    float:right;
+    
 }
 
 
@@ -17,26 +22,49 @@
     width: 60%;
     height: 80%;
     margin: 10% auto;
+   
 
+}
+#meme_1 img {
+    display: block;
 }
 .accordion:hover .cross{
     display: block;
+    color:black;
+}
+.accordion:hover .meme-title  {
+    
+    color:black;
+}
+.meme-title:hover + .meme-content{
+    display: block;
+
+    
 }
 .meme-input:checked ~ .cross{
     transform: rotate(45deg);
-    display: block;
+    color:black;
+    
 }
 .accordion-item {
     border-top: 0.1vh black solid;
+
 }
 .meme-input:checked ~ .meme-content {
     display: block;
 }
 .meme-input:checked ~ .meme-title {
     background-color: #bd3a3a;
+    color:black
 }
 
 .meme-content {
+    display: none;
+    
+    
+    animation:1s show ease;
+}
+.meme-content:clicked  .meme-tilte{
     display: none;
 }
 .meme-title:hover{
@@ -69,3 +97,23 @@
     
 }
 
+@keyframes show {
+    from{ opacity:0;}
+    to { opacity:1;}
+}
+
+@media (hover:hover) {
+    .accordion:hover .cross{
+        display: block;
+        color:black;
+    }
+    .accordion:hover .meme-title  {  
+        color:black;
+    }
+    .meme-title:hover + .meme-content{
+        display: block;  
+    }
+    .meme-title:hover{
+        background-color: #bd3a3a;
+    }
+}
