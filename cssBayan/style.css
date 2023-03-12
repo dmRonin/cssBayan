@@ -19,17 +19,17 @@ h1 {
 /* Accordion */
 
 .accordion {
-    width: 60%;
+    width: 70%;
     height: 80%;
     margin: 10% auto;
    
 
 }
-#meme_1 img {
-    display: block;
-}
 .accordion:hover .cross{
     display: block;
+    color:black;
+}
+.accordion:hover h1  {
     color:black;
 }
 .accordion:hover .meme-title  {
@@ -110,10 +110,30 @@ h1 {
     .accordion:hover .meme-title  {  
         color:black;
     }
+    .accordion:hover h1  {
+        color:black;
+    }
     .meme-title:hover + .meme-content{
         display: block;  
     }
     .meme-title:hover{
         background-color: #bd3a3a;
+    }
+}
+@media screen and (max-width:320px) {
+    *{
+        box-sizing: border-box;
+        color: blue;
+        font: 1em Times;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:820px) and (min-width: 321px) {
+    *{
+        box-sizing: border-box;
+        color: red;
+        font: 1.05em Times;
+        font-weight: bold;
     }
 }
