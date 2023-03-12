@@ -6,6 +6,46 @@
 h1 {
     font-size: 2em;
 }
+.img1 {
+    background:url(img/NoCodeNoBug.jpg);
+    object-fit: none;
+    height: 13.5rem;
+    width: 13.5rem;
+    scale: 120%;
+    margin: 5% auto  5%;    
+}
+.img2 {
+    background:url(img/TZ.jpg);
+    object-fit: none;
+    height: 13rem;
+    width: 15rem;
+    scale: 120%;
+    margin: 5% auto  5%;    
+}
+.img3 {
+    background:url(img/Tech.jpg);
+    object-fit: none;
+    height: 13.2rem;
+    width: 13rem;
+    scale: 120%;
+    margin: 5% auto  5%;    
+}
+.img4 {
+    background:url(img/me.jpg);
+    object-fit: none;
+    height: 15.2rem;
+    width: 18.8rem;
+    scale: 110%;
+    margin: 5% auto  5%;    
+}
+.img5 {
+    background:url(img/think.jpg);
+    height: 12rem;
+    width: 13rem;
+    scale: 120%;
+    margin: 5% auto  5%;    
+}
+
 .cross {
     display:none;
     margin-right: 2vh;
@@ -47,7 +87,8 @@ h1 {
     
 }
 .accordion-item {
-    border-top: 0.1vh black solid;
+    border-top: 0.4vh rgb(190,190,190,.3) solid ;
+    
 
 }
 .meme-input:checked ~ .meme-content {
@@ -88,14 +129,7 @@ h1 {
 
 }
 
-.img {
-    background:url(img/img1.jpg);
-    height: 20vw;
-    width: 20vw;
 
-    margin: 5% auto;
-    
-}
 
 @keyframes show {
     from{ opacity:0;}
@@ -124,8 +158,48 @@ h1 {
     *{
         box-sizing: border-box;
         color: blue;
-        font: 1em Times;
+        font: 1.05em Times;
         font-weight: bold;
+    }
+    .img1 {
+        background:url(img/NoCodeNoBug.jpg);
+        object-fit: none;
+        height: 13.5rem;
+        width: 13.5rem;
+        scale: 80%;
+        margin: 5% auto  5%;    
+    }
+    .img2 {
+        background:url(img/TZ.jpg);
+        object-fit: none;
+        height: 12rem;
+        width: 14rem;
+        scale: 70%;
+    
+        margin: 5% auto  5%;    
+    }
+    .img3 {
+        background:url(img/Tech.jpg);
+        object-fit: none;
+        height: 13.2rem;
+        width: 13rem;
+        scale: 90%;
+        margin: 5% auto  5%;    
+    }
+    .img4 {
+        background:url(img/me.jpg);
+        object-fit: none;
+        height: 14.2rem;
+        width: 17rem;
+        scale: 60%;
+        margin:  0 0 0 -15%; ;    
+    }
+    .img5 {
+        background:url(img/think.jpg);
+        height: 12rem;
+        width: 13rem;
+        scale: 90%;
+        margin: 5% auto  5%;    
     }
 }
 
@@ -133,7 +207,47 @@ h1 {
     *{
         box-sizing: border-box;
         color: red;
-        font: 1.05em Times;
+        font: 1.025em Times;
         font-weight: bold;
+    }
+    .img1 {
+        background:url(img/NoCodeNoBug.jpg);
+        object-fit: none;
+        height: 13.5rem;
+        width: 13.5rem;
+        scale: 90%;
+        margin: 5% auto  5%;    
+    }
+    .img2 {
+        background:url(img/TZ.jpg);
+        object-fit: none;
+        height: 12rem;
+        width: 15rem;
+        scale: 90%;
+        margin: 5% auto  5%;    
+    }
+    .img3 {
+        background:url(img/Tech.jpg);
+        object-fit: none;
+        height: 13.2rem;
+        width: 13rem;
+        scale: 90%;
+    
+        margin: 5% auto  5%;    
+    }
+    .img4 {
+        background:url(img/me.jpg);
+        object-fit: none;
+        height: 15.2rem;
+        width: 18rem;
+        scale: 80%;
+        margin: 5% auto  5%;    
+    }
+    .img5 {
+        background:url(img/think.jpg);
+        height: 12rem;
+        width: 13rem;
+        scale: 100%;
+        margin: 5% auto  5%;    
     }
 }
